@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "party.elias.deadlyweather.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "deadlyweather.refmap.json",
+  "mixins": [
+    "LivingEntityMixin",
+    "ServerLevelMixin"
+  ],
+  "client": [
+    "LevelRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
